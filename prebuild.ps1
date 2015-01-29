@@ -10,7 +10,7 @@ new-item build -type director
 
 pushd
 
-Start-FileDownload 'https://mega.co.nz/#!slEAQBoQ!0ROIHTTCUBUVNvn3Kjrp5E7VyBv1yUeQlK6vk3MgGo0' -FileName win32lib.zip
+Start-FileDownload 'https://www.dropbox.com/s/46f40ixw758ntxm/trillek-win32-lib.zip?dl=0' -FileName win32lib.zip
 7z -y x win32lib.zip
 
 popd
